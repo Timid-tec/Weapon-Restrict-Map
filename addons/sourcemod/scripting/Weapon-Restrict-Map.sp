@@ -1,3 +1,20 @@
+/*  [CS:GO] Weapon-Restrict-Map: Just a fun plugin, for maps, also.
+ *
+ *  Copyright (C) 2021 Mr.Timid // timidexempt@gmail.com
+ * 
+ * This program is free software: you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License as published by the Free
+ * Software Foundation, either version 3 of the License, or (at your option) 
+ * any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT 
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS 
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with 
+ * this program. If not, see http://www.gnu.org/licenses/.
+ */
+
 #include <sourcemod>
 #include <sdktools>
 #include <cstrike>
@@ -6,10 +23,10 @@
 
 public Plugin myinfo = 
 {
-	name = "Weapnon Restrict", 
-	author = "Timid", 
-	description = "Disabled Weapon pickup/buy", 
-	version = "4.2.0", 
+	name = "Weapon-Restrict-Map", 
+	author = PLUGIN_AUTHOR, 
+	description = "Disabled Weapon pickup/buy via map", 
+	version = "4.2.2", 
 	url = "https://steamcommunity.com/id/MrTimid/"
 };
 
